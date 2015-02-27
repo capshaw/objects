@@ -1,0 +1,75 @@
+body, html {
+  font-family: "Helvetica", sans-serif;
+  padding: 10px; }
+
+p {
+  font-size: 1.4em;
+  line-height: 1.5em; }
+
+a {
+  color: #d57777;
+  text-decoration: none; }
+  a:hover {
+    color: #e68c8c; }
+
+::selection {
+  background: pink; }
+
+.container {
+  max-width: 1000px;
+  margin: auto; }
+
+.icon {
+  display: inline-block; }
+
+.icons {
+  margin-top: 40px;
+  margin-left: -10px; }
+
+.title {
+  margin-top: 100px; }
+
+.heart {
+  color: #d57777; }
+
+.icon-box {
+  width: 188px;
+  height: 188px;
+  display: inline-block;
+  background: #eee;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px; }
+  @media (max-width: 1000px) {
+    .icon-box {
+      width: 100%; } }
+  .icon-box .name {
+    font-weight: 300;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 188px;
+    background: #eee;
+    text-align: center;
+    display: none; }
+  .icon-box:hover .name {
+    display: block; }
+  .icon-box .icon {
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    position: absolute; }
+    .icon-box .icon.icon-camera {
+      background: url("/png/camera.png") no-repeat center center;
+      background-size: contain; }
+    .icon-box .icon.icon-french-press {
+      background: url("/png/french_press.png") no-repeat center center;
+      background-size: contain; }
+    .icon-box .icon.icon-champagne-flute {
+      background: url("/png/champagne_flute.png") no-repeat center center;
+      background-size: contain; }
+
+/*# sourceMappingURL=index.css.map */
