@@ -5,6 +5,4 @@ Hey, world. I'm experimenting with the illustration side of web development and 
 Right now, the images are PNG exports from a vector Sketch file. In the future I'd like to export SVG and / or build a font from these images.
 
 
-![Camera](/showcase/png/camera.png?raw=true)
-![Camera](/showcase/png/champagne_flute.png?raw=true)
-![Camera](/showcase/png/french_press.png?raw=true)
+![Camera](/showcase/png/everything.png?raw=true)
