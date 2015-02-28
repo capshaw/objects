@@ -81,6 +81,8 @@ a {
         left: 25%;
         position: absolute;
 
+        // TODO mixin, DRY, etc.
+
         &.icon-camera {
             background: url('png/camera.png') no-repeat center center;
             background-size: contain;
@@ -93,6 +95,16 @@ a {
 
         &.icon-champagne-flute {
             background: url('png/champagne_flute.png') no-repeat center center;
+            background-size: contain;
+        }
+
+        &.icon-lamp {
+            background: url('png/lamp.png') no-repeat center center;
+            background-size: contain;
+        }
+
+        &.icon-guitar-amplifier {
+            background: url('png/guitar_amplifier.png') no-repeat center center;
             background-size: contain;
         }
     }

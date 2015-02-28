@@ -71,5 +71,11 @@ a {
     .icon-box .icon.icon-champagne-flute {
       background: url("png/champagne_flute.png") no-repeat center center;
       background-size: contain; }
+    .icon-box .icon.icon-lamp {
+      background: url("png/lamp.png") no-repeat center center;
+      background-size: contain; }
+    .icon-box .icon.icon-guitar-amplifier {
+      background: url("png/guitar_amplifier.png") no-repeat center center;
+      background-size: contain; }
 
 /*# sourceMappingURL=index.css.map */
