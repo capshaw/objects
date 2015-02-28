@@ -28,21 +28,25 @@ a {
 
 .title {
   margin-top: 100px; }
+  @media (max-width: 1000px) {
+    .title {
+      margin-top: 0; } }
 
 .heart {
   color: #d57777; }
 
 .icon-box {
   width: 188px;
+  margin-left: 10px;
   height: 188px;
   display: inline-block;
   background: #eee;
   position: relative;
-  margin-left: 10px;
   margin-top: 10px; }
   @media (max-width: 1000px) {
     .icon-box {
-      width: 100%; } }
+      width: 100%;
+      margin-left: 0px; } }
   .icon-box .name {
     font-weight: 300;
     position: absolute;
@@ -63,19 +67,19 @@ a {
     left: 25%;
     position: absolute; }
     .icon-box .icon.icon-camera {
-      background: url("png/camera.png") no-repeat center center;
+      background: url("png/camera@2x.png") no-repeat center center;
       background-size: contain; }
     .icon-box .icon.icon-french-press {
-      background: url("png/french_press.png") no-repeat center center;
+      background: url("png/french_press@2x.png") no-repeat center center;
       background-size: contain; }
     .icon-box .icon.icon-champagne-flute {
-      background: url("png/champagne_flute.png") no-repeat center center;
+      background: url("png/champagne_flute@2x.png") no-repeat center center;
       background-size: contain; }
     .icon-box .icon.icon-lamp {
-      background: url("png/lamp.png") no-repeat center center;
+      background: url("png/lamp@2x.png") no-repeat center center;
       background-size: contain; }
     .icon-box .icon.icon-guitar-amplifier {
-      background: url("png/guitar_amplifier.png") no-repeat center center;
+      background: url("png/guitar_amplifier@2x.png") no-repeat center center;
       background-size: contain; }
 
 /*# sourceMappingURL=index.css.map */

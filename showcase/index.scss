@@ -37,6 +37,9 @@ a {
 
 .title {
     margin-top: 100px;
+    @media (max-width: 1000px) {
+        margin-top: 0;
+    }
 }
 
 .heart {
@@ -45,14 +48,16 @@ a {
 
 .icon-box {
     width: 188px;
+    margin-left: 10px;
+
     @media (max-width: 1000px) {
         width: 100%;
+        margin-left: 0px;
     }
     height: 188px;
     display: inline-block;
     background: #eee;
     position: relative;
-    margin-left: 10px;
     margin-top: 10px;
 
     .name {
@@ -84,27 +89,27 @@ a {
         // TODO mixin, DRY, etc.
 
         &.icon-camera {
-            background: url('png/camera.png') no-repeat center center;
+            background: url('png/camera@2x.png') no-repeat center center;
             background-size: contain;
         }
 
         &.icon-french-press {
-            background: url('png/french_press.png') no-repeat center center;
+            background: url('png/french_press@2x.png') no-repeat center center;
             background-size: contain;
         }
 
         &.icon-champagne-flute {
-            background: url('png/champagne_flute.png') no-repeat center center;
+            background: url('png/champagne_flute@2x.png') no-repeat center center;
             background-size: contain;
         }
 
         &.icon-lamp {
-            background: url('png/lamp.png') no-repeat center center;
+            background: url('png/lamp@2x.png') no-repeat center center;
             background-size: contain;
         }
 
         &.icon-guitar-amplifier {
-            background: url('png/guitar_amplifier.png') no-repeat center center;
+            background: url('png/guitar_amplifier@2x.png') no-repeat center center;
             background-size: contain;
         }
     }
